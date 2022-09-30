@@ -25,6 +25,7 @@ public class ProductsMain {
 		product3.productDiscountedPrice();
 		System.out.println(product3.name + "'s discount price is: " + product3.productDiscountedPrice());
 		
+		System.out.println();
 		
 		product1.productFinalPrice();
 		System.out.println(product1.name + "'s final price after discount is: " + product1.productFinalPrice());
@@ -35,14 +36,16 @@ public class ProductsMain {
 		product3.productFinalPrice();
 		System.out.println(product3.name + "'s final price after discount is: " + product3.productFinalPrice());
 		
-
+		
+		System.out.println();
 		
 		// Calling static data
 		System.out.println("Seller Name: " + Product.SELLER_NAME);
-		System.out.println("Seller Name: " + Product.SELLER_CONTACT_NUMBER);
-		System.out.println("Seller Name: " + Product.SELLER_E_MAIL);
+		System.out.println("Seller Contact Number: " + Product.SELLER_CONTACT_NUMBER);
+		System.out.println("Seller Email: " + Product.SELLER_E_MAIL);
+		System.out.println();
 		
-		Product.sellerContactDetails();
+		//Product.sellerContactDetails();
 		
 	}
 

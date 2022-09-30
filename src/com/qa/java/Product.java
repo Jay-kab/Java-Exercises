@@ -44,7 +44,7 @@ public class Product {
 	
 	double productDiscountedPrice () {
 		return (price * discountPercentage / 100);
-		//System.out.println();
+		
 		
 		}
 		
