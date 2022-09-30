@@ -28,6 +28,10 @@ public class ArrayExercise {
 		
 		int countEvenNumbers = arraySum.getEvenArrayElementCount(nos);
 		System.out.println("Number of even number in array is : " + countEvenNumbers);
+		
+		
+		
+		
 	}
 
 	
